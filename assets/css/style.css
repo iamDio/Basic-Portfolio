@@ -1,0 +1,112 @@
+body {
+    color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+   width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/grey.png");
+}
+
+header,
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+ul{
+	list-style-type: none;
+    columns: 2;
+
+}
+
+#logo {
+    background: #4aaaa5;
+    color: white;
+    display: block;
+    overflow: auto;
+    padding: 30px;
+    position: fixed;
+    margin-bottom: 0;
+    border-bottom: : 2px solid #ccc;
+}
+
+#submit {
+    background: #4aaaa5;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+#message {
+    padding: 5%;
+}
+
+#aboutme {
+    width: 200px;
+    float: left;
+}
+
+#connect {
+    width: 50px;
+}
+
+nav {
+    /* 	position: absolute;
+right: 27%;
+top: 5%;*/
+    padding: 6% 6% 0% 6%;
+    font-size: 16px;
+    float: right;
+}
+
+aside {
+    position: absolute;
+    right: 25%;
+    top: 12.5%;
+    padding: 1%;
+    width: 270px;
+    /* padding: -20% 0% 20% 1%;
+font-size: 18px; 
+float: right;
+ */
+}
+
+main {
+    margin-top: 0;
+    width: 650px;
+    position: relative;
+    top: 130px;
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    padding: 40px;
+    border-top: 10px solid #4aaaa5;
+}
+
+
+/* Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings) = #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+Fonts
+Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
+All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip. Use the Page Ruler extension to measure the size of elements */
